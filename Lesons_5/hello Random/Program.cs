@@ -12,12 +12,13 @@
             int max = 146;
             int randomNumber = random.Next(min, max);
             int p;
+            Console.WriteLine(randomNumber);
 
             do
             {
                 Console.WriteLine("guess the number");
                 p = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine($"{randomNumber}");
+                
                 if (p < randomNumber) Console.WriteLine("more");
                 if (p > randomNumber) Console.WriteLine("Less");
             }
