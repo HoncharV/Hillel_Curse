@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_2", "Task_2\Task_2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello Random", "hello Random\hello Random.csproj", "{D463FCCE-131C-446D-8F72-A9018C841088}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplication table", "Multiplication table\Multiplication table.csproj", "{54C5E410-B560-4399-9594-F7C5A9576888}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D463FCCE-131C-446D-8F72-A9018C841088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D463FCCE-131C-446D-8F72-A9018C841088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D463FCCE-131C-446D-8F72-A9018C841088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C5E410-B560-4399-9594-F7C5A9576888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C5E410-B560-4399-9594-F7C5A9576888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C5E410-B560-4399-9594-F7C5A9576888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C5E410-B560-4399-9594-F7C5A9576888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
