@@ -15,7 +15,8 @@
             // варіат_2 з методом marh
             Console.WriteLine("re-enter the number");
             double a=Convert.ToDouble(Console.ReadLine());
-            double s=Math.Pow(a,2);
+            double y= 2;
+            double s=Math.Pow(a,y);
             Console.WriteLine("Square root = " + s);
             Console.ReadKey();
         }
