@@ -17,7 +17,7 @@
             {
                 Console.WriteLine("guess the number");
                 p = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(randomNumber);
+                Console.WriteLine($"{randomNumber}");
                 if (p < randomNumber) Console.WriteLine("more");
                 if (p > randomNumber) Console.WriteLine("Less");
             }
