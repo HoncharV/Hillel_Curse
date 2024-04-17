@@ -12,6 +12,7 @@
                    Console.WriteLine($"{i} * {j} = {i*j}");
                }
             }
+            Console.ReadKey();
         }
     }
 }
