@@ -28,7 +28,12 @@
             for (; i < l; i++)
             {
                 a[i] = random.Next(-100,100);
-                Console.WriteLine(a[i]);    
+                Console.WriteLine(a[i]); 
+                for (; i < 0;) 
+                {
+                    i++;
+                    Console.WriteLine($"результат:{i}");
+                }
             }
             
                 Console.ReadLine();
