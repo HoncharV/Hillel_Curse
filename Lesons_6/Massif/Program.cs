@@ -9,34 +9,23 @@
             //Знайти кількість додатніх чисел у масиві.
             //Вивести на екран масив і кількість порахованих чисел.
 
-            //int n = 10;
-            //int[] a = new int[n];
-            //Random random = new Random();
-            //for (int i = 0; i < n; i++) // генерування масиву випадковими числами
-            //    a[i] = random.Next(-100,100);
-            //Console.WriteLine("Result:");//виведення елементів даного масиву
 
-            //{
+            int minValue = -100;
+            int maxValue = 100;
+            int arraySize = 10;
 
-            //}
-            int l = 10;
-            int[] a = new int[l];
-            
-            //Console.WriteLine(a.Length);
-            Random random = new Random();
-            int i = 0;
-            for (; i < l; i++)
+            int[] randomArray = new int[arraySize];
+
+            Random rand = new Random();
+
+            for (int i = 0; i < arraySize; i++)
             {
-                a[i] = random.Next(-100,100);
-                Console.WriteLine(a[i]); 
-                for (; i < 0;) 
-                {
-                    i++;
-                    Console.WriteLine($"результат:{i}");
-                }
+                randomArray[i] = rand.Next(minValue, maxValue);
+                Console.WriteLine(randomArray[i]);
             }
             
-                Console.ReadLine();
+            Console.ReadKey();
         }
+            
     }
 }

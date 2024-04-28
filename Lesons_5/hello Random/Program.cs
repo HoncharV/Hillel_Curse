@@ -19,10 +19,11 @@
                 Console.WriteLine("guess the number");
                 p = Convert.ToInt32(Console.ReadLine());
                 
-                if (p < randomNumber) Console.WriteLine("more");
-                if (p > randomNumber) Console.WriteLine("Less");
+                if (p < randomNumber) Console.WriteLine("еLess больше");
+                if (p > randomNumber) Console.WriteLine("more меньше");
             }
             while (p != randomNumber);
+            Console.ReadLine();
         }
     }
 }
